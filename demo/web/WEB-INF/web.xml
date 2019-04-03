@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>RequestHeadersServlet</servlet-name>
+        <servlet-class>Chapter4.request.RequestHeadersServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DownManagerServlet</servlet-name>
+        <servlet-class>Chapter4.DownManagerServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RequestForwardServlet</servlet-name>
+        <servlet-class>Chapter4.request.RequestForwardServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ResultServlet</servlet-name>
+        <servlet-class>Chapter4.request.ResultServlet</servlet-class>
+    </servlet>
+
+
+
+    <servlet-mapping>
+        <servlet-name>RequestHeadersServlet</servlet-name>
+        <url-pattern>/RequestHeadersServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DownManagerServlet</servlet-name>
+        <url-pattern>/DownManagerServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RequestForwardServlet</servlet-name>
+        <url-pattern>/RequestForwardServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ResultServlet</servlet-name>
+        <url-pattern>/ResultServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
