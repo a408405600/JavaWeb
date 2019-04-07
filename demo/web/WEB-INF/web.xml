@@ -24,7 +24,6 @@
     </servlet>
 
     <servlet>
-<<<<<<< HEAD
         <servlet-name>LastAccessServlet</servlet-name>
         <servlet-class>Chapter4.LastAccessServlet</servlet-class>
     </servlet>
@@ -59,8 +58,7 @@
         <servlet-class>Chapter5.session.example02.LogoutServlet</servlet-class>
     </servlet>
 
-
-=======
+    <servlet>
         <servlet-name>IncludedServlet</servlet-name>
         <servlet-class>Chapter4.request.IncludedServlet</servlet-class>
     </servlet>
@@ -69,8 +67,6 @@
         <servlet-name>IncludingServlet</servlet-name>
         <servlet-class>Chapter4.request.IncludingServlet</servlet-class>
     </servlet>
-
->>>>>>> 214e9fd898d0388b2b24a16500917b0eca086dd5
 
 
     <servlet-mapping>
@@ -104,7 +100,6 @@
     </servlet-mapping>
 
     <servlet-mapping>
-<<<<<<< HEAD
         <servlet-name>LastAccessServlet</servlet-name>
         <url-pattern>/LastAccessServlet</url-pattern>
     </servlet-mapping>
@@ -127,7 +122,8 @@
     <servlet-mapping>
         <servlet-name>IndexServlet</servlet-name>
         <url-pattern>/IndexServlet</url-pattern>
-=======
+    </servlet-mapping>
+    <servlet-mapping>
         <servlet-name>IncludedServlet</servlet-name>
         <url-pattern>/IncludedServlet</url-pattern>
     </servlet-mapping>
@@ -135,6 +131,5 @@
     <servlet-mapping>
         <servlet-name>IncludingServlet</servlet-name>
         <url-pattern>/IncludingServlet</url-pattern>
->>>>>>> 214e9fd898d0388b2b24a16500917b0eca086dd5
     </servlet-mapping>
 </web-app>
