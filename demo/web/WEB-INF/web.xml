@@ -23,7 +23,53 @@
         <servlet-class>Chapter4.request.ResultServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>LastAccessServlet</servlet-name>
+        <servlet-class>Chapter4.LastAccessServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>ListBookServlet</servlet-name>
+        <servlet-class>Chapter5.session.example01.ListBookServlet</servlet-class>
+    </servlet>
 
+    <servlet>
+        <servlet-name>PurchaseServlet</servlet-name>
+        <servlet-class>Chapter5.session.example01.PurchaseServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>CartServlet</servlet-name>
+        <servlet-class>Chapter5.session.example01.CartServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>Chapter5.session.example02.IndexServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>LoginServlet2</servlet-name>
+        <servlet-class>Chapter5.session.example02.LoginServlet2</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>Chapter5.session.example02.LogoutServlet</servlet-class>
+    </servlet>
+
+
+
+
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet2</servlet-name>
+        <url-pattern>/LoginServlet2</url-pattern>
+    </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>RequestHeadersServlet</servlet-name>
@@ -43,5 +89,30 @@
     <servlet-mapping>
         <servlet-name>ResultServlet</servlet-name>
         <url-pattern>/ResultServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>LastAccessServlet</servlet-name>
+        <url-pattern>/LastAccessServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>ListBookServlet</servlet-name>
+        <url-pattern>/ListBookServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>PurchaseServlet</servlet-name>
+        <url-pattern>/PurchaseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/CartServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/IndexServlet</url-pattern>
     </servlet-mapping>
 </web-app>

@@ -11,6 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  欢迎您，现在时间是：
+  <%@ include file="date.jsp"%>
   </body>
 </html>
