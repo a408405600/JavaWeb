@@ -2,70 +2,23 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="JDBC:war exploded" />
       <artifact name="demo:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f66ffa3d-e571-4da1-8704-e9f7852c3f52" name="Default Changelist" comment="xm1">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JDBC_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jstl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/JDBC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/example/Example01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/Chapter5/session/example02/Logout2Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/chapter08/MyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/chapter08/MyServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/filter/AutoLoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/filter/ForwardServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/filter/Login2Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/filter/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/listener/MyListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/example/BDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/example/utils/C3p0Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/commons-dbcp2-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/commons-pool2-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/mysql-connector-java-5.1.47-bin.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0308/day0308.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day0308/day0308.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0315/web/WEB-INF/classes/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0315/web/WEB-INF/classes/META-INF/day0315.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0315/web/WEB-INF/classes/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0315/web/WEB-INF/classes/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0315/web/WEB-INF/classes/servlet/ListServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0315/web/WEB-INF/classes/servlet/RegServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0315/web/WEB-INF/classes/servlet/demoservlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/demo/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter4/DownManagerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter4/DownManagerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter4/LastAccessServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter4/LastAccessServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter4/request/RequestForwardServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter4/request/RequestForwardServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter4/request/RequestHeadersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter4/request/RequestHeadersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter4/request/ResultServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter4/request/ResultServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example01/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example01/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example01/BookDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example01/BookDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example01/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example01/CartServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example01/ListBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example01/ListBookServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example01/PurchaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example01/PurchaseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example02/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example02/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example02/LoginServlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example02/LoginServlet2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example02/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example02/LogoutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example02/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/Chapter5/session/example02/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter4/DownManagerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter4/DownManagerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter4/LastAccessServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter4/LastAccessServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter4/request/RequestForwardServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter4/request/RequestForwardServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter4/request/RequestHeadersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter4/request/RequestHeadersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter4/request/ResultServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter4/request/ResultServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example01/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example01/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example01/BookDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example01/BookDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example01/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example01/CartServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example01/ListBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example01/ListBookServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example01/PurchaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example01/PurchaseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example02/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example02/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example02/LoginServlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example02/LoginServlet2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example02/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example02/LogoutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example02/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/Chapter5/session/example02/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/JDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/example/Example01.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/example/Example01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/day0315/web/WEB-INF/classes/" />
@@ -80,24 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/filter/ForwardServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/web/login.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,14 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JDBC/src/example/Example01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -143,19 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
+            <state relative-caret-position="250">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#537#543#0#HTML" expanded="true" />
-                <element signature="e#543#549#0#HTML" expanded="true" />
-                <element signature="e#719#725#0#HTML" expanded="true" />
-                <element signature="e#725#731#0#HTML" expanded="true" />
-                <element signature="e#1420#1426#0#HTML" expanded="true" />
-                <element signature="e#1426#1432#0#HTML" expanded="true" />
-                <element signature="e#1432#1438#0#HTML" expanded="true" />
-                <element signature="e#1438#1444#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -163,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/src/filter/AutoLoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
+            <state relative-caret-position="400">
               <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
@@ -172,8 +93,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/src/listener/MyListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
+            <state relative-caret-position="1275">
               <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JDBC/src/example/BDS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JDBC/src/example/utils/C3p0Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -237,6 +182,8 @@
         <option value="$PROJECT_DIR$/demo/src/listener/MyListener.java" />
         <option value="$PROJECT_DIR$/demo/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/JDBC/src/example/Example01.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/example/utils/C3p0Utils.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/example/BDS.java" />
       </list>
     </option>
   </component>
@@ -247,10 +194,11 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="213" />
+    <option name="y" value="35" />
+    <option name="width" value="1400" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -261,6 +209,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,6 +221,48 @@
               <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
               <item name="JDBC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -292,7 +283,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,8 +290,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554823659591" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/jakarta-taglibs-standard-1.1.2/lib/standard.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554974738932" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/commons-dbutils-1.7.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -312,6 +302,7 @@
       <recent name="Chapter5.cookie" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CK\Documents\GitHub\JavaWeb\JDBC\web\WEB-INF\lib" />
       <recent name="C:\Users\CK\Documents\GitHub\JavaWeb\demo\web\WEB-INF\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -330,13 +321,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BDS">
+    <configuration name="BDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.BDS" />
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.Example01" />
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 8.5.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="demo:war exploded">
+        <artifact name="JDBC:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/JDBC" />
           </settings>
         </artifact>
       </deployment>
@@ -400,9 +417,21 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="demo:war exploded" />
+          <artifact name="JDBC:war exploded" />
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Example01" />
+      <item itemvalue="Application.BDS" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BDS" />
+        <item itemvalue="Application.Example01" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -421,6 +450,8 @@
       <workItem from="1554654071210" duration="1640000" />
       <workItem from="1554680749884" duration="12774000" />
       <workItem from="1554772338437" duration="18187000" />
+      <workItem from="1554914560800" duration="4103000" />
+      <workItem from="1554957586190" duration="5310000" />
     </task>
     <task id="LOCAL-00001" summary="xm1">
       <created>1554652502464</created>
@@ -440,7 +471,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76883000" />
+    <option name="totallyTimeSpent" value="86296000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -452,19 +483,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.55016184" visible="true" weight="0.26705757" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7364425" visible="true" weight="0.27238807" />
       <window_info id="Structure" order="1" sideWeight="0.44174758" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.44174758" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="7" sideWeight="0.4498382" side_tool="true" visible="true" weight="0.26705757" />
+      <window_info id="Web" order="7" sideWeight="0.2635575" side_tool="true" visible="true" weight="0.27238807" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -661,13 +693,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/Chapter5/session/example02/LogoutServlet2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/Chapter5/session/example02/LogoutServlet2.java" />
     <entry file="file://$PROJECT_DIR$/demo/src/Chapter5/session/example02/Logout2Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -696,17 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/web/login.html">
+    <entry file="file://$PROJECT_DIR$/demo/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/filter/Login2Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="2475">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
         </state>
       </provider>
     </entry>
@@ -717,42 +736,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/listener/MyListener.java">
+    <entry file="file://$PROJECT_DIR$/demo/web/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/filter/AutoLoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#537#543#0#HTML" expanded="true" />
-            <element signature="e#543#549#0#HTML" expanded="true" />
-            <element signature="e#719#725#0#HTML" expanded="true" />
-            <element signature="e#725#731#0#HTML" expanded="true" />
-            <element signature="e#1420#1426#0#HTML" expanded="true" />
-            <element signature="e#1426#1432#0#HTML" expanded="true" />
-            <element signature="e#1432#1438#0#HTML" expanded="true" />
-            <element signature="e#1438#1444#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        <state relative-caret-position="175">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -773,10 +760,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/filter/AutoLoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/listener/MyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/filter/Login2Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JDBC/src/example/Example01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="189">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/example/BDS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/example/utils/C3p0Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -789,7 +821,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>day0308:war exploded</last-edited>
+          <last-edited>JDBC:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -842,7 +874,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
