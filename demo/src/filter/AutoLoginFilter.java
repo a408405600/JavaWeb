@@ -17,7 +17,7 @@ public class AutoLoginFilter implements Filter {
         Cookie[] cookies = request.getCookies();
         String autologin = null;
         for (int i = 0; cookies != null && i < cookies.length; i++) {
-            if("autologin".equals(cookies[1].getName())){
+            if("autologin".equals(cookies[i].getName())){
                 //找到了指定的cookie
                 autologin = cookies[i].getValue();
                 break;

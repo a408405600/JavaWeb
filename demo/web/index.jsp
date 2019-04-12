@@ -89,9 +89,9 @@
     colorList.add("green");
     colorList.add("black");
   %>
-  <c:forEach var="color" items="<%=colorList%>" begin="1" end="3" step="2">
-    ${color} &nbsp;
-  </c:forEach>
+  <%--<c:forEach var="color" items="<%=colorList%>" begin="1" end="3" step="2">--%>
+    <%--${color} &nbsp;--%>
+  <%--</c:forEach>--%>
 
   <%
     List userList = new ArrayList();
