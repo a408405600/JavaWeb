@@ -8,17 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f66ffa3d-e571-4da1-8704-e9f7852c3f52" name="Default Changelist" comment="xm1">
-      <change afterPath="$PROJECT_DIR$/JDBC/src/example/BDS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/example/utils/C3p0Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/commons-dbcp2-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/commons-pool2-2.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/mysql-connector-java-5.1.47-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/example/utils/DBUtilsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/example/utils/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC/JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/JDBC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC/src/example/Example01.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/example/Example01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/example/utils/C3p0Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/example/utils/C3p0Utils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/day0315/web/WEB-INF/classes/" />
@@ -34,27 +27,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/web/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day0315/src/servlet/ListServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day0315/src/servlet/demoservlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
@@ -66,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JDBC/src/example/Example01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="350">
               <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="65" />
             </state>
           </provider>
@@ -102,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JDBC/src/example/BDS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="450">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,13 +83,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JDBC/src/example/utils/C3p0Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="375">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JDBC/src/example/utils/DBUtilsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="747">
+              <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JDBC/src/example/utils/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,8 +190,10 @@
         <option value="$PROJECT_DIR$/demo/src/listener/MyListener.java" />
         <option value="$PROJECT_DIR$/demo/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/JDBC/src/example/Example01.java" />
-        <option value="$PROJECT_DIR$/JDBC/src/example/utils/C3p0Utils.java" />
         <option value="$PROJECT_DIR$/JDBC/src/example/BDS.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/example/utils/C3p0Utils.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/example/utils/User.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/example/utils/DBUtilsDao.java" />
       </list>
     </option>
   </component>
@@ -194,9 +204,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="213" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="607" />
+    <option name="y" value="210" />
     <option name="width" value="1400" />
     <option name="height" value="1100" />
   </component>
@@ -208,8 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,6 +291,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,7 +300,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554974738932" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555002776953" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/JDBC/web/WEB-INF/lib/commons-dbutils-1.7.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
@@ -452,6 +462,7 @@
       <workItem from="1554772338437" duration="18187000" />
       <workItem from="1554914560800" duration="4103000" />
       <workItem from="1554957586190" duration="5310000" />
+      <workItem from="1554997941120" duration="4722000" />
     </task>
     <task id="LOCAL-00001" summary="xm1">
       <created>1554652502464</created>
@@ -471,7 +482,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86296000" />
+    <option name="totallyTimeSpent" value="91018000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -486,14 +497,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7364425" visible="true" weight="0.27238807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73535794" visible="true" weight="0.2750533" />
       <window_info id="Structure" order="1" sideWeight="0.44174758" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.44174758" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="7" sideWeight="0.2635575" side_tool="true" visible="true" weight="0.27238807" />
+      <window_info id="Web" order="7" sideWeight="0.2646421" side_tool="true" visible="true" weight="0.2750533" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.329718" />
@@ -760,6 +771,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/example/Example01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -781,23 +799,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/filter/Login2Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/example/Example01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JDBC/src/example/BDS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
+        <state relative-caret-position="450">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -805,10 +809,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/filter/Login2Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JDBC/src/example/utils/C3p0Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="375">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/example/utils/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/example/utils/DBUtilsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

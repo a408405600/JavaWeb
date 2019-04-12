@@ -9,6 +9,9 @@ public class C3p0Utils {
     private static DataSource ds;
     static {
         ds = new ComboPooledDataSource();
+    }
 
+    public static DataSource getDataSource() {
+        return ds;
     }
 }
