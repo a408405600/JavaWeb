@@ -3,10 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/day0308/day0308.iml" filepath="$PROJECT_DIR$/day0308/day0308.iml" />
       <module fileurl="file://$PROJECT_DIR$/day0315/day0315.iml" filepath="$PROJECT_DIR$/day0315/day0315.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo1.iml" filepath="$PROJECT_DIR$/demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsplogin/jsplogin.iml" filepath="$PROJECT_DIR$/jsplogin/jsplogin.iml" />
     </modules>
   </component>
 </project>
